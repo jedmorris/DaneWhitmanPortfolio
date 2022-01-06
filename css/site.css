@@ -1,11 +1,28 @@
-main>.container {
+/* main>.container {
 	padding: 60px 15px 0;
 	margin-bottom: 5rem;
-}
+} */
 
-.sticky-footer {
+/* .sticky-footer {
 	position: sticky;
 	left: 0;
 	bottom: 0;
 	width: 100%;
+} */
+
+/* Breakpoints 
+2560x500
+1200x400
+992x300
+
+*/
+
+.mainHeader {
+	padding-top: calc(2em + 74px);
+	background-image: url(/img/blue_banner_2560.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: Left 0px top 74px;
+
+
 }
