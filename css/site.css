@@ -1,14 +1,27 @@
-/* main>.container {
-	padding: 60px 15px 0;
-	margin-bottom: 5rem;
-} */
+:root {
+	--title-font: 'Luxurious Roman', sans-serif;
+	--jm-body-font: 'Open Sans', sans-serif;
+}
 
-/* .sticky-footer {
-	position: sticky;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-} */
+/* Element Overrides */
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+	font-family: var(--title-font);
+}
+
+body {
+	font-family: var(--body-font);
+}
 
 /* Breakpoints 
 2560x500
@@ -32,24 +45,28 @@
 		height: 274px;
 	}
 }
+
 @media (min-width: 767.98px) {
 	.mainHeader {
 		background-image: url(/img/blue_banner_992.jpg);
 		height: 374px;
 	}
 }
+
 @media (min-width: 992.98px) {
 	.mainHeader {
 		background-image: url(/img/blue_banner_992.jpg);
 		height: 474px;
 	}
 }
+
 @media (min-width: 1199.98px) {
 	.mainHeader {
 		background-image: url(/img/blue_banner_1200.jpg);
 		height: 574px;
 	}
 }
+
 @media (min-width: 1399.98px) {
 	.mainHeader {
 		background-image: url(/img/blue_banner_2560.jpg);
