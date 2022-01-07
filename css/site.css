@@ -9,7 +9,7 @@
 
 }
 
-/* Element Overrides */
+/* --------Element Overrides------- */
 h6,
 .h6,
 h5,
@@ -26,10 +26,12 @@ h1,
 }
 
 body {
-	font-family: var(--body-font);
+	font-family: var(--jm-body-font);
+	color: var(--jm-dark-color);
+	background-color: var(--jm-light-color);
 }
 
-/* Breakpoints 
+/*---------- Breakpoints------------- 
 2560x500
 1200x400
 992x300
