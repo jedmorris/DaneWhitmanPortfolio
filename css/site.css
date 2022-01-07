@@ -38,13 +38,6 @@ body {
 	--webkit-text-size-adjust: 100%;
 }
 
-/*---------- Breakpoints------------- 
-2560x500
-1200x400
-992x300
-
-*/
-
 .mainHeader {
 	padding-top: calc(2em + 74px);
 	background-image: url(/img/background_banner/blue_banner_375.jpg);
@@ -73,7 +66,11 @@ body {
 	letter-spacing: .1rem;
 }
 
-
+.section-page {
+	height: 100%;
+	padding-top:6rem;
+	padding-bottom: 6rem;
+}
 
 
 
