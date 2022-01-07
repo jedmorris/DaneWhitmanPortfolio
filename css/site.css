@@ -40,7 +40,7 @@ body {
 
 .mainHeader {
 	padding-top: calc(2em + 74px);
-	background-image: url(/img/background_banner/blue_banner_375.jpg);
+	background-image: url(/img/background_banner/blue_banner_576.jpg);
 	height: 274px;
 	background-repeat: no-repeat;
 	background-position: left 0px top 74px;
@@ -71,10 +71,6 @@ body {
 	padding-top:6rem;
 	padding-bottom: 6rem;
 }
-
-
-
-
 
 
 /* ---------MEDIA QUERIES--------- */
