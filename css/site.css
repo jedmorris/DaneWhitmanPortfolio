@@ -2,6 +2,9 @@
 	--title-font: 'Luxurious Roman', sans-serif;
 	--subTitle-font: 'Open Sans', sans-serif;
 	--jm-body-font: 'Open Sans', sans-serif;
+	--jm-font-size: 1.2rem;
+	--jm-font-weight: 400;
+	--jm-line-height: 1.5rem;
 	--jm-primary-color: #91CBFB;
 	--jm-secondary-color: #4294BA;
 	--jm-dark-color: #212121;
@@ -29,6 +32,10 @@ body {
 	font-family: var(--jm-body-font);
 	color: var(--jm-dark-color);
 	background-color: var(--jm-light-color);
+	font-weight: var(--jm-font-weight);
+	font-size: var(--jm-font-size);
+	line-height: var(--jm-line-height);
+	--webkit-text-size-adjust: 100%;
 }
 
 /*---------- Breakpoints------------- 
