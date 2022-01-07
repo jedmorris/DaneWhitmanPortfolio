@@ -1,6 +1,12 @@
 :root {
 	--title-font: 'Luxurious Roman', sans-serif;
+	--subTitle-font: 'Open Sans', sans-serif;
 	--jm-body-font: 'Open Sans', sans-serif;
+	--jm-primary-color: #91CBFB;
+	--jm-secondary-color: #4294BA;
+	--jm-dark-color: #212121;
+	--jm-light-color: #f8f8f8;
+
 }
 
 /* Element Overrides */
