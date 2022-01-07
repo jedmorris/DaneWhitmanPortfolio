@@ -53,7 +53,7 @@ body {
 	}
 }
 
-@media (min-width: 992.98px) {
+@media (min-width: 991.98px) {
 	.mainHeader {
 		background-image: url(/img/blue_banner_992.jpg);
 		height: 474px;
