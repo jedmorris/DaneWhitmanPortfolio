@@ -73,7 +73,26 @@
 			</div>
 		</div>
 	</header>
+	<!-- Modals -->
+	<!-- Bug Tracker Modal -->
+	<div class="modal fade" id="BugTrackerModal" tabindex="-1" aria-labelledby="BugTrackerModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreeen-md-down">
+			<div class="modal-content">
+				<div class="modal-header">
 
+				</div>
+				<div class="modal-body">
+					<div>
+						<h1>Hello From Morpheus!</h1>
+					</div>
+				</div>
+				<div class="modal-footer">
+
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- All Sections Below  -->
 	<main class="container">
 		<section class="section-page" id="about">
@@ -257,7 +276,7 @@
 						</div>
 						<div class="card-footer text-center">
 							<button type="button" class="btn btn-primary
-							btn-lg">
+							btn-lg" data-bs-toggle="modal" data-bs-target="#BugTrackerModal">
 								Learn More
 							</button>
 						</div>
@@ -309,7 +328,7 @@
 		</section>
 		<section class="section-page" id="contact">
 			<div class="container">
-				<h1>Contact Me</h1>
+				<h1>Contact</h1>
 				<div class="p-3 border border-2 rounded-2 shadow-lg bg-light" id="formContainingDiv">
 					<form name="contactForm" class="row g-3 p-2">
 						<div class="col-12">
